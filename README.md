@@ -1,6 +1,6 @@
 ### **Library**
 
-This is a Python module that can drive BADGEr through an PagePrint object. 
+This is a Python module that can drive BADGEr through a PagePrint object. 
 ```
 import BADGEr
 pp = BADGEr.PagePrint('/dev/tty.usbserial-A5047MW8')
