@@ -17,13 +17,10 @@ Each ```println``` caches a line on a page but BADGEr does not display the conte
 
 First, The Arduino sketch (Receiver/BADGEr_Display.ino) needs to be loaded on BADGEr. Second, locate the UART device connected to BADEGEr in ```/dev/`` and instantiate a ```PagePrint``` object.
 
-### **Repository**
-
-
 #### *Timing*
 
 The ```println``` and ```fflush``` functions have a 0.5s and 2s delay respectively.
 
 #### *Credits*
 
-I'd like ot recognize a blog post by [_www.jeremyblum.com_](http://www.jeremyblum.com/2014/01/06/epaper-weather-station/)
+I'd like to recognize a blog post by [_www.jeremyblum.com_](http://www.jeremyblum.com/2014/01/06/epaper-weather-station/)
