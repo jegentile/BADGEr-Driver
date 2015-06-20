@@ -1,14 +1,13 @@
 ### **Library**
 
 This is a Python module that can drive BADGEr through an PagePrint object. 
-
-{% highlight python %}
+```
 import BADGEr
 pp = BADGEr.PagePrint('/dev/tty.usbserial-A5047MW8')
 pp.println('Hello World')
 pp.println('Line 7, highlighted',7,True)
 pp.fflush()
-{% endhighlight %}
+```
 
 The constructor connects to the TTY device and lines are printed using the ```println``` function. Optional arguments to this function are the line number and a highlight flag. If the highlight flag is set, the line will be printed in negative (white text and black background). 
 
