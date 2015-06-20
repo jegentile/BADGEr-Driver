@@ -1,4 +1,4 @@
-__author__ = 'jgentile'
+__author__ = 'jegentile'
 
 import BADGEr
 
