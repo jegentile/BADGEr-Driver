@@ -24,6 +24,7 @@ First, we need to prepare BADGEr,
 Then, we can use the driver.
 
 - Include the Sender/BADGEr module in your Python project.
+
 #### *Timing*
 
 The ```println``` and ```fflush``` functions have a 0.5s and 2s delay respectively.
