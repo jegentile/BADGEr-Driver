@@ -15,7 +15,7 @@ Each ```println``` caches a line on a page but BADGEr does not display the conte
 
 ### **How to Use**
 
-First, The Arduino sketch (Receiver/BADGEr_Display.ino) needs to be loaded on BADGEr. Second, locate the UART device connected to BADEGEr in /dev/ and instantiate a ```PagePrint``` object.
+First, The Arduino sketch (Receiver/BADGEr_Display.ino) needs to be loaded on BADGEr. Second, locate the UART device connected to BADEGEr in ```/dev/`` and instantiate a ```PagePrint``` object.
 
 ### **Repository**
 
