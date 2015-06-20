@@ -15,8 +15,15 @@ Each ```println``` caches a line on a page but BADGEr does not display the conte
 
 ### **How to Use**
 
-First, The Arduino sketch (Receiver/BADGEr_Display.ino) needs to be loaded on BADGEr. Second include the Sender/BADGEr package in your Python project.
+First, we need to prepare BADGEr,
 
+- Copy the files in Receiver/sdcard to the root of BADGEr's SD Card. 
+- Add Wyolum's eReader library to your Arduino enviornment: [http://wyolum.com/wyolum-ereader-library/](http://wyolum.com/wyolum-ereader-library/)
+- Load Receiver/BADGEr_Display.ino onto BADGEr. Note, I've had to use Arduino 1.0.5 for this. 
+
+Then, we can use the driver.
+
+- Include the Sender/BADGEr module in your Python project.
 #### *Timing*
 
 The ```println``` and ```fflush``` functions have a 0.5s and 2s delay respectively.
